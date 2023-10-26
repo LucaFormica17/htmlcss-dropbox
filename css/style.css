@@ -4,3 +4,231 @@
     box-sizing: border-box;
 }
 
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+}
+
+footer{
+    margin-top: 75px;
+    background-color: black;
+}
+
+/* COMMON */
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+
+.no-gap{
+    gap: 0;
+}
+
+.content{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.s-between{
+    justify-content: space-between;
+}
+
+.bg-color{
+    background-color: rgba(124, 181, 255, 0.768);
+}
+
+
+/* CONTAINER */
+
+.container-full{
+    width: 100%;
+}
+
+.container-w1000{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-w900{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* COLUMNS */
+
+.col-100{
+    width: 100%;
+}
+
+.col-40{
+    width: calc(40% - 20px)
+}
+
+.col-60{
+    width: calc(60% - 20px)
+}
+
+.col-33{
+    width: calc(100% / 3 - 14px);
+}
+
+.col-33-f{
+    width: calc(100% / 3);
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-20{
+    width: calc(100% / 5 - 20px)
+}
+
+.top-col{
+    background-color: darkgreen;
+    border: 1px solid grey;
+    height: 50px;
+}
+
+.bottom-col{
+    background-color: green;
+    border: 1px solid grey;
+    border-top: none;
+    height: 100%;
+}
+
+.question{
+    width: 100%;
+}
+
+.content-w15{
+    margin-top: 100px;
+    width: 15%;
+}
+
+/* PROPERTY TO DELETE */
+
+.h75{
+    height: 75px;
+}
+
+.h300{
+    height: 300px;
+}
+
+.h450{
+    height: 450px;
+}
+
+.h150{
+    height: 150px;
+}
+
+.h400{
+    height: 400px;
+}
+
+.h200{
+    height: 200px;
+}
+
+.h50{
+    height: 50px;
+    margin-top: 75px;
+}
+
+.h600{
+    height: 600px;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-darkgray{
+    background-color: darkgray;
+}
+
+.bg-yellowgreen{
+    background-color: yellowgreen;
+}
+
+.bg-lightblue{
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-brown{
+    background-color: brown;
+}
+
+li{
+    width: 60px;
+    background-color: orange;
+    border: 1px solid black;
+    height: 30px;
+    margin-top: 20px;
+}
+
+h1{
+    height: 200px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+h2{
+    height: 100px;
+    background-color: fuchsia;
+    margin-top: 75px;
+}
+
+h4{
+    height: 50px;
+    background-color: blanchedalmond;
+    margin-top: 25px;
+}
+
+.checkbox{
+    background-color: pink;
+    height: 30px;
+}
+
+.link{
+    height: 20px;
+    width: 25%;
+    background-color: aquamarine;
+    margin-bottom: 100px;
+}
+
+.language{
+    background-color: white;
+    height: 20px;
+    margin-top: 30px;
+}
