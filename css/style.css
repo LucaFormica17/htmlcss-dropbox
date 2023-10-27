@@ -104,7 +104,13 @@ i{
     color: gray;
 }
 
+.w-30{
+    width: 30%;
+}
 
+.w-70{
+    width: 70%;
+}
 
 /* CONTAINER */
 
@@ -168,7 +174,6 @@ i{
 .top-col{
     border: 1px solid lightgrey;
     padding: 10px 0;
-    margin-bottom: -20px;
 }
 
 .bottom-col{
@@ -194,7 +199,7 @@ h2{
 }
 
 h3{
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 20px;
 }
 
@@ -233,6 +238,10 @@ h3{
     margin-right: 40px;
 }
 
+.mar-bottom{
+    margin-bottom: -20px;
+}
+
 .plan-info{
     display: flex;
 }
@@ -256,6 +265,19 @@ h3{
 
 .last-col-br{
     margin-bottom: 135px;
+}
+
+.w-30 > button{
+    width: 80%;
+    margin: 25px 20px;
+}
+
+.w-70 > *{
+    padding: 25px;
+}
+
+.w-70 > p{
+    margin-top: 30px;
 }
 /* IMG */
 
