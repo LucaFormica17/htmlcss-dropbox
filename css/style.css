@@ -182,6 +182,10 @@ i{
     padding: 10px 0;
 }
 
+.operation > p{
+    margin: 20px 0;
+    font-size: 18px;
+}
 /* SPECIFIC */
 
 .h75{
