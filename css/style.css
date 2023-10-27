@@ -60,6 +60,10 @@ i{
     margin-right: 2px;
 }
 
+a{
+    color: #0071ffd9;
+}
+
 /* UTILITY */
 
 .d-flex{
@@ -302,6 +306,10 @@ img{
     width: 100%;
 }
 
+.link{
+    margin: 40px 0;
+}
+
 /* PROPERTY TO DELETE */
 
 
@@ -310,11 +318,6 @@ h4{
     margin-top: 25px;
 }
 
-
-.link{
-    width: 25%;
-    margin-bottom: 100px;
-}
 
 .language{
     margin-top: 30px;
