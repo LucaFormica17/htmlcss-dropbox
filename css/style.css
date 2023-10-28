@@ -30,6 +30,7 @@ footer{
 
 .content{
     width: 100%;
+    height: 100%;
 }
 
 ul{
@@ -46,14 +47,6 @@ button{
     padding: 10px 15px;
     border-style: none;
     width: 100%;
-}
-
-.bg-color{
-    background-color: rgba(124, 181, 255, 0.768);
-}
-
-.bg-white{
-    background-color: white;
 }
 
 i{
@@ -88,6 +81,14 @@ a{
 
 .margin-all > *{
     margin: 20px 0;
+}
+
+.margin-top{
+    margin-top: 75px;
+}
+
+.pad-30{
+    padding: 30px;
 }
 
 .pos-rel{
@@ -171,6 +172,7 @@ a{
 
 .col-50{
     width: 50%;
+    height: calc(100vw / 3 / 2);
 }
 
 .col-20{
@@ -190,6 +192,72 @@ a{
     margin: 20px 0;
     font-size: 18px;
 }
+
+/* BG COLORS */
+
+.bg-color{
+    background-color: rgba(124, 181, 255, 0.768);
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-chess-1-1{
+    background-color: rgb(163 215 177 / 91%);
+    border: 10px solid rgb(245 255 248 / 82%);
+}
+
+.bg-chess-1-2{
+    background-color: rgba(83, 0, 56, 0.915);
+}
+
+.bg-chess-1-3{
+    background-color: rgba(8, 160, 254, 0.959);
+}
+
+.bg-chess-1-4{
+    background-color: rgb(251, 55, 55);
+}
+
+.bg-chess-2-1{
+    background-color: rgb(218, 0, 65);
+}
+
+.bg-chess-2-2{
+    background-color: rgb(141, 211, 255);
+}
+
+.bg-chess-2-3{
+    background-color: rgb(29, 29, 160);
+}
+
+.bg-chess-2-4{
+    background-color: rgb(212, 184, 0);
+}
+
+.bg-lightgrey{
+    background-color: rgb(240, 240, 240);
+}
+
+/* IMG */
+
+img{
+    width: 100%;
+}
+
+.main-img{
+    width: 50%;
+}
+
+.chess-img{
+    width: 50%;
+    filter: invert(1);
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%);
+}
+
 /* SPECIFIC */
 
 .h75{
@@ -293,6 +361,26 @@ h3{
     font-size: 18px;
 }
 
+.free-trial-button{
+    margin: 110px 30px;
+}
+
+.free-trial-button > button{
+    background-color: white;
+    color: black;
+    width: max-content;
+    padding: 10px 30px;
+}
+
+.free-trial{
+    padding: 50px 40px;
+}
+
+.free-trial > h2{
+    margin: 50px 0;
+    color: rgb(102, 38, 97);
+}
+
 .partner > *{
     margin: 20px;
 }
@@ -300,14 +388,14 @@ h3{
 .partner > p{
     font-size: 18px;
 }
-/* IMG */
-
-img{
-    width: 100%;
-}
 
 .link{
     margin: 40px 0;
+}
+
+.logo-hr{
+    width: 30%;
+    margin: 30px 0;
 }
 
 /* PROPERTY TO DELETE */
